@@ -1,0 +1,15 @@
+# Example property file for developer token application in SampleAppAdvanced.csproj
+#
+# Documentation: https://dev.evernote.com/doc/articles/dev_tokens.php
+#
+# Save this file as api.restext to ensure that it will be used as a resource
+# file, during the project build. That file should automatically be ignored
+# by Git.
+#
+# The private developer token will be included in the resulting assembly
+# file and should not ever be published to the Web. Production applications
+# may use Evernote OAauth2 support for purposes of user authentication,
+# without requiring storage of intermediate authentication tokens in files.
+#
+token=literal-string
+store=https://...
